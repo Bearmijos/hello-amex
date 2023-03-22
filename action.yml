@@ -12,7 +12,7 @@ outputs:
 runs:
   using: "composite"
   steps:
-    - run: echo Hello ${{ inputs.who-to-greet }}, nice to meet you. I am V1
+    - run: echo Hello ${{ inputs.who-to-greet }}, nice to meet you. I am V2
       shell: bash
 #     - id: random-number-generator
 #       run: echo "random-number=$(echo $RANDOM)" >> $GITHUB_OUTPUT
